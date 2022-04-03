@@ -1,0 +1,6 @@
+dvc
+dvc[gdrive]
+pandas 
+sklearn
+numpy
+pip 
