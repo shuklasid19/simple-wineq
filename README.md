@@ -23,7 +23,51 @@ https://drive.google.com/drive/folders/18zqQiCJVgF7uzXgfbIJ-04zgz1ItNfF5?usp=sha
 git init
 ```
 
-```bash
-git add data_given/winequality.csv
+```
+bash
+dvc init
 ```
 
+```bash
+dvc add data_given/winequality.csv
+```
+
+```
+bash
+
+git add .
+```
+
+
+```
+bash
+git commit -m "first commit"
+```
+
+
+```
+bash
+git add . && git commit -m "update README.md" 
+```
+
+
+```
+bash
+git remote add origin https://github.com/shuklasid19/simple-wineq.git 
+git branch -M main
+git push origin main
+```
+
+
+
+```
+bash
+
+
+```
+bash
+
+```
+bash
+
+```
