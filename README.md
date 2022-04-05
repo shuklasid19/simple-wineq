@@ -50,7 +50,6 @@ bash
 git add . && git commit -m "update README.md" 
 ```
 
-
 ```
 bash
 git remote add origin https://github.com/shuklasid19/simple-wineq.git 
@@ -62,11 +61,12 @@ git push origin main
 
 ```
 bash
-
+tox
+```
 
 ```
 bash
-
+tox -r
 ```
 bash
 
