@@ -59,15 +59,32 @@ git push origin main
 
 
 
+tox command
 ```
 bash
 tox
 ```
 
+fore rebuilding the env
 ```
 bash
 tox -r
 ```
-bash
 
+pytest command
+```
+bash
+pytest -v
+```
+
+```
+bash
+set up commands
+pip install -e .
+```
+
+
+build your own package commands-
+```
+python setup.py sdist bdist wheel
 ```
