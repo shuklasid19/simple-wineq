@@ -4,3 +4,5 @@ pandas
 sklearn
 numpy
 pip 
+pytest
+tox
