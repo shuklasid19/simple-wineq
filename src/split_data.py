@@ -1,0 +1,20 @@
+#raw data split it 
+#save it in data/processed folder
+
+import os
+import argparse
+import pandas as pd
+from sklearn.model_selection import train_test_split
+#to read method the read_params
+from get_data import get_data, read_params
+
+def split_and_saved_data(config_path):
+    config = read_params(config_path)
+    test_data_path = config["split_data"]["test_path"]
+    train_data_path = config["split_data"]["train_path"]
+    raw_data_path = config["load_data"]["raw_dataset_csv"]
+    split_ratio = config["split_data"]["test_size"]
+    random_state = config["base"]["random_state"]
+
+    df = pd.read_csv(raw_data_path, sep=",")
+    train, test = train_test_split(df, )
